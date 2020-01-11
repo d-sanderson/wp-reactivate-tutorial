@@ -1,9 +1,9 @@
 <?php
 /**
- * WP-Reactivate
+ * WPR Contact Form
  *
  *
- * @package   WP-Reactivate
+ * @package   WPR Contact Form
  * @author    Pangolin
  * @license   GPL-3.0
  * @link      https://gopangolin.com
@@ -55,7 +55,7 @@ class Shortcode {
 		$this->plugin_slug = $plugin->get_plugin_slug();
 		$this->version = $plugin->get_plugin_version();
 
-		add_shortcode( 'wp-reactivate', array( $this, 'shortcode' ) );
+		add_shortcode( 'wpr-contact-form', array( $this, 'shortcode' ) );
 	}
 
 

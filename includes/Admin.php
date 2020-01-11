@@ -1,9 +1,9 @@
 <?php
 /**
- * WP-Reactivate
+ * WP-Reactivate Contact Form
  *
  *
- * @package   WP-Reactivate
+ * @package   WP-Reactivate Contact Form
  * @author    Pangolin
  * @license   GPL-3.0
  * @link      https://gopangolin.com
